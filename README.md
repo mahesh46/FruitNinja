@@ -1,6 +1,8 @@
 # FruitNinja
 # Fruit ninja game ios app
 
+* SpriteKit and GamePlay frameworks used
+
 Emoji fruit images used.
 
 * Tap on image or swipe to make images explode,
