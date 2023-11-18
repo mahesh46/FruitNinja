@@ -1,5 +1,5 @@
 # FruitNinja
-# Fruit ninja game ios app
+# Fruit Ninja game ios app
 
 * SpriteKit and GamePlay frameworks used
 
