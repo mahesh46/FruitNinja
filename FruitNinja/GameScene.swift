@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  FruitNinja
 //
-//  Created by Administrator on 21/04/2019.
+//  Created by Mahesh Lad on 21/04/2019.
 //  Copyright © 2019 mahesh lad. All rights reserved.
 //
 
@@ -42,7 +42,7 @@ class GameScene: SKScene {
         physicsWorld.gravity = CGVector(dx: 0, dy: -3)
         
         xMarks = XMarks(num: missMax)
-        xMarks.position = CGPoint(x: size.width - 60, y: size.height - 60)
+        xMarks.position = CGPoint(x: size.width - 60, y: size.height - 120)
         addChild(xMarks)
         
         explodeOverlay = SKShapeNode(rect:  CGRect(x: 0, y: 0, width: size.width, height: size.height))
@@ -54,12 +54,7 @@ class GameScene: SKScene {
         if UserDefaults.standard.object(forKey: "bestData") != nil {
             best = UserDefaults.standard.object(forKey: "bestData") as! Int
         }
-        
-        
     }
-    
-    
-
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
      
@@ -108,7 +103,6 @@ class GameScene: SKScene {
                    missfruit()
                 }
             }
-            
         }
     }
     

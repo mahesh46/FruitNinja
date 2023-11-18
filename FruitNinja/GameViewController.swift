@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  FruitNinja
 //
-//  Created by Administrator on 21/04/2019.
+//  Created by Mahesh Lad on 21/04/2019.
 //  Copyright © 2019 mahesh lad. All rights reserved.
 //
 
@@ -26,7 +26,6 @@ class GameViewController: UIViewController {
             }
             
             view.ignoresSiblingOrder = true
-            
             view.showsFPS = false
             view.showsNodeCount = false
         }

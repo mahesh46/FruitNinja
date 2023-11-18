@@ -2,7 +2,7 @@
 //  TrailLine.swift
 //  FruitNinja
 //
-//  Created by Administrator on 21/04/2019.
+//  Created by Mahesh Ladr on 21/04/2019.
 //  Copyright © 2019 mahesh lad. All rights reserved.
 //
 
@@ -17,7 +17,6 @@ class TrailLine : SKShapeNode {
         let path = CGMutablePath()
         path.move(to: pos)
         path.addLine(to: lastPos)
-        
         self.path = path
         lineWidth = width
         strokeColor = color
@@ -29,7 +28,6 @@ class TrailLine : SKShapeNode {
                 self.removeFromParent()
             }
         })
-        
     }
     
     required init?(coder aDecoder: NSCoder) {
