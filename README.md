@@ -9,6 +9,7 @@ Emoji fruit images used.
 * Five lives, for each game
 * Tracks Highest score
 * Any images not struck will forfeit a life.
+* Game over if you strike a bomb 
 
 
 
